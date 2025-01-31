@@ -36,6 +36,7 @@ def index(request):
     return render(request, 'index.html', context)
 
 
+
 def post_detail(request, slug):
     """
     Вьюхи не оптимизированы, потому что в последней задаче модуля Django ORM нужно их оптимизировать как раз на примере этого сайта.
